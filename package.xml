@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<package format="2">
+  <name>g2o</name>
+  <version>1.13.0</version>
+  <description>A large scale non-linear optimization library.</description>
+  <maintainer email="g2o@turing.com">
+    The Ceres Solver Authors
+  </maintainer>
+  <license>New BSD</license>
+  <url type="website">http://g2o.org/</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>atlas</depend>
+  <depend>eigen</depend>
+  <depend>gfortran</depend>
+  <depend>libgflags-dev</depend>
+  <depend>libgoogle-glog-dev</depend>
+  <depend>suitesparse</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
